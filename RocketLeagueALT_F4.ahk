@@ -1,3 +1,4 @@
+#SingleInstance, Force
 #Persistent
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
@@ -10,7 +11,7 @@ Run, C:\Program Files (x86)\Steam\steamapps\common\rocketleague\Binaries\Win64\R
 !f4::
     If WinActive("Rocket League") ; Check if rocketleague is the active window
     {
-        run,%comspec% /c taskkill /f /im RocketLeague.exe ; Kills rocketleague from commandline, because [Process, Close, RocketLeague.exe] didn't work.
+        WinKill, Rocket League
         ExitApp
     }
     Else ; This is to make ALT + F4 work normally with other windows again, since the hotkey prevents the normal behaviour.

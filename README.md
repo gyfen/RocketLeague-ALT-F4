@@ -11,7 +11,7 @@ NOTE: ALT + F4 will still work in other programs while this is running, but it w
 ## Instructions
 
 ### How to use:
-1. Create a shortcut to either the .ahk file OR the .exe file. This will also start the game for you, so you can delete your original game shortcut.
+1. Create a shortcut to the .ahk file. This will also start the game for you, so you can delete your original game shortcut.
 2. Open your shortcut to launch the game.
 3. Use ALT + F4 *While in Rocket League* to close the game.
 
